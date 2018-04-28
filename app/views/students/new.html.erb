@@ -1,5 +1,5 @@
 <h3>Student Form</h3>
-<form action="<%= students_path %>" method="POST"> 
+<form action="<%= student_path(@post) %>" method="POST"> 
   <%= form_tag do %>
   <label>First name:</label>
   <%= text_field_tag :'first_name' %><br>
